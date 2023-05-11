@@ -1,6 +1,5 @@
-# SoundBoard_Q
+# 🐿️ Q's SoundBoard 🎧
 
-### 🐿️ Q's SoundBoard
 #### SoundBoard iphone app with TBZ Q's coversongs in youtube 
 
 ### Songs
