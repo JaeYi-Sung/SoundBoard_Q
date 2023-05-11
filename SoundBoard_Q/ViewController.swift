@@ -9,7 +9,7 @@ import UIKit
 import AVFoundation
 import MediaPlayer
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     private var springImg: UIImageView!
     //private var Btn: UIButton!
@@ -79,6 +79,7 @@ class ViewController: UIViewController {
         
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: url!)
+            audioPlayer?.numberOfLoops = -1
             audioPlayer?.play()
             isPlay = 1
         }
@@ -100,6 +101,7 @@ class ViewController: UIViewController {
         
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: url!)
+            audioPlayer?.numberOfLoops = -1
             audioPlayer?.play()
             isPlay = 1
         }
@@ -121,6 +123,7 @@ class ViewController: UIViewController {
         
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: url!)
+            audioPlayer?.numberOfLoops = -1
             audioPlayer?.play()
             isPlay = 1
         }
@@ -142,6 +145,7 @@ class ViewController: UIViewController {
         
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: url!)
+            audioPlayer?.numberOfLoops = -1
             audioPlayer?.play()
             isPlay = 1
         }
