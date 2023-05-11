@@ -37,3 +37,4 @@
 
 1. Background Play
 2. Pause & Replay Action
+3. Repeat Play
