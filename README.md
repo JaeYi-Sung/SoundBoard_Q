@@ -2,6 +2,11 @@
 
 #### SoundBoard iphone app with TBZ Q's coversongs in youtube 
 
+### Technology
+<p align="center"> 
+  <img src="https://img.shields.io/badge/Swift-FFCA28?style=flat-square&logo=Tensorflow&logoColor=white"/></a> &nbsp     
+</p>
+
 ### Songs
 1. Spring - 민들레 🌼
 
